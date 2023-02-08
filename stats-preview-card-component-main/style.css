@@ -1,0 +1,172 @@
+body{
+    background-color:rgb(10, 12, 27) ;
+    margin: 0;
+    padding: 0;
+    
+}
+.card-holder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 95vh;
+    
+}
+.card
+{
+    width: 80vw;
+    height: 60vh;
+    background-color: rgb(28, 25, 56);
+    border-radius: 0.2rem;
+    display: flex;
+    
+}
+.picture
+{
+    width: 40vw;
+    height: 60vh;
+    background-image: url(images/image-header-desktop.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.image
+{
+    width: 40vw;
+    height: 60vh;
+    background: rgba(159, 86, 204, 0.4);
+    filter: contrast(180%);
+    filter: saturate(2);
+}
+.all-description
+{
+    margin: 3rem;
+    width:40vw;
+    height: 60vh;
+    
+}
+.title
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.purple
+{
+    color: purple;
+}
+.card-description p
+{
+    color: rgb(173, 171, 192);
+    font-family: 'Roboto', sans-serif;
+}
+.statistic-columns
+{
+    display: flex;
+    align-items: end;
+    margin-top: 7rem;
+    
+}
+
+.numbers
+{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.name
+{
+    color: rgb(173, 171, 192);
+    font-size: small;
+    padding-top: 0.5rem;
+}
+.templates
+{
+    padding-left: 1rem;
+}
+.queries
+{
+    padding-left: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    
+    .card-holder
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98vw;
+        height: 95vh;
+        
+    }
+    .card
+    {
+        width: 90vw;
+        height: 90vh;
+        background-color: rgb(28, 25, 56);
+        border-radius: 0.3rem;
+        display: flex;
+        flex-direction: column-reverse;
+
+        
+    }
+    .picture
+    {
+        width: 90vw;
+        height: 40vh;
+        border-radius: 0.3rem 0.3rem 0 0;
+    }
+    .image
+    {
+        width: 90vw;
+        height: 40vh;
+    }
+    .all-description
+    {
+        margin: 0;
+        padding: 0;
+        width:90vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .title
+    {
+        font-size: 4vw;
+        text-align: center;
+        
+    }
+    .card-description 
+    {
+        font-size: 3vw;
+        width: 60vw;
+        text-align: center;
+        margin-top: -1rem;
+       
+    }
+    .statistic-columns
+    {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .templates
+    {
+        margin-top: 1rem;
+    }
+    .queries
+    {
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+    }
+    .name
+    {
+        font-size: 3vw;
+    }
+
+}
+
