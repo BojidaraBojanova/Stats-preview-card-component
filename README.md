@@ -1,7 +1,7 @@
 <h1>Website Template</h1>
 
 <h2>App Demo</h2>
-https://zesty-tarsier-011d11.netlify.app/
+https://gleaming-meerkat-921896.netlify.app/
 <hr>
 
 <h2>Author:</h2>
