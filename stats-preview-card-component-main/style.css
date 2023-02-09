@@ -28,15 +28,15 @@ body{
     height: 60vh;
     background-image: url(images/image-header-desktop.jpg);
     background-size: cover;
-    overflow: hidden;
+    background-color:rgba(159, 86, 204, 0.9) ;
+    background-blend-mode: multiply;
+    opacity: 0.8;
 }
 .image
 {
     width: 40vw;
     height: 60vh;
-    background: rgba(159, 86, 204, 0.4);
-    filter: contrast(180%);
-    filter: saturate(2);
+    
 }
 .all-description
 {
